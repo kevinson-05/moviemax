@@ -1,0 +1,101 @@
+body{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #241414, #3a0f0f, #000000);
+  color: #333;
+}
+
+.coninerText{
+  padding: 10px;
+}
+
+
+main{
+  padding: 40px;
+  max-width: 1100px;
+  margin: 4rem auto;
+  background-color: rgba(44, 19, 19, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+p{
+  line-height: 1,6;
+}
+
+.main ,h2{
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+}
+
+.video-grande {
+  width: 100%;      /* O probá 800px, 90%, etc. */
+  max-width: 1000px;
+  height: auto;     /* Para que mantenga proporción */
+  display: block;
+  margin: 0 auto;   /* Lo centra */
+}
+
+.derecha {
+  max-width: 900px;      /* ancho máximo para que no ocupe toda la pantalla */
+  margin: 0 auto;        /* centra horizontalmente */
+  padding: 20px;
+}
+
+.derecha p {
+  text-align: left;    /* alinea el texto al centro línea por línea */
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fefefe;
+  font-size: 20px
+}
+
+.mensaje-oculto {
+  display: none;
+  text-align: center;
+  margin-top: 30px;
+  animation: fadeIn 2s ease forwards;
+}
+
+.boton-ir {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: gold;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px hwb(51 0% 0%);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.boton-ir:hover {
+  background-color: orange;
+  box-shadow: 0 0 15px orange;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*estilo de cam¿nvas */
+canvas {
+  display: block;
+  margin: 40px auto;
+  background-color: #907d7d;
+  border-radius: 10px;
+}
+
+
+
